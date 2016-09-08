@@ -8,6 +8,9 @@ Julian Cook
 I have always been interested in data, databases and machine learning. In the area that I work in, models only seem to ever explain about 70% of the cases, whereas machine learning algorithms seem especially adept at figuring out the remaining (messy and complex) 30% and do even better as you feed them more data. I am hoping to be able to show and prove that more problems can be directly solved using data science from the beginning, rather than at the margins of 'established' methodologies.
 
 3. Tell us a little bit about your programming experience.  What programming courses have you taken?  Do you use programming on the job, and if so, how?
+
+Our 'production' applications are written in C++ and java. I do not directly write those, since I am not a developer. I do a lot of work in python and also R, depending on need. I spend as much time doing ETL scripts (using python mainly) and building databases as I actually do writing analysis code. If I just need to do analysis on ready-made data, I would probably use R. For top down coding that involves a lot of data manipulation first, I would use python/pandas usually.
+
 4.  Tell us a little bit about your statistics experience.  What statistics courses have you taken?  Do you use statistics on the job, and if so, how?
 5.  Do you have other experience with R or Python?
 6.  What do you hope to learn in this class?
