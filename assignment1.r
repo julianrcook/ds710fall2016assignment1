@@ -1,8 +1,20 @@
-R version 3.2.1 (2015-06-18) -- "World-Famous Astronaut"
-Copyright (C) 2015 The R Foundation for Statistical Computing
-Platform: x86_64-w64-mingw32/x64 (64-bit)
+R version 3.1.2 (2014-10-31) -- "Pumpkin Helmet"
+Copyright (C) 2014 The R Foundation for Statistical Computing
+Platform: x86_64-pc-linux-gnu (64-bit)
 
-# snip
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+  Natural language support but running in an English locale
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
 
 > 2015^(1/3)
 [1] 12.63063
@@ -19,15 +31,14 @@ Platform: x86_64-w64-mingw32/x64 (64-bit)
 [1]  1  3  5  7  9 11
 > ln.a <- log(a)
 > ln.a
- [1] 0.0000000 0.6931472 1.0986123 1.3862944 1.6094379 1.7917595 1.9459101 2.0794415
- [9] 2.1972246 2.3025851 2.3978953 2.4849066
+ [1] 0.0000000 0.6931472 1.0986123 1.3862944 1.6094379 1.7917595
+ [7] 1.9459101 2.0794415 2.1972246 2.3025851 2.3978953 2.4849066
 > c^2
 [1]   1   9  25  49  81 121
-> # Q1.7 (above) Computes the squares of the odd numbers from 1 to 11.
 > ?sd
-> # the sd'  function computes the standard deviation of the values in x
-> # usage is: sd(x, na.rm = FALSE)
-> # Q1.9. Create a variable Name that contains your first name
+> # printed in rstudio help panel
+> # the 'sd()'  function computes the standard deviation of the values in x
+> # usage is: sd(x, na.rm = FALSE), example is: sd(1:2) ^ 2
 > Name <- "Julian"
 > paste("My name is", Name)
 [1] "My name is Julian"
